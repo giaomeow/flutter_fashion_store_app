@@ -49,6 +49,7 @@ else
     echo "export PATH=\"\$PATH:\$ANDROID_HOME/platform-tools\"" >> "$SHELL_CONFIG"
     echo "export PATH=\"\$PATH:\$ANDROID_HOME/tools\"" >> "$SHELL_CONFIG"
     echo "export PATH=\"\$PATH:\$ANDROID_HOME/tools/bin\"" >> "$SHELL_CONFIG"
+    echo "export PATH=\"\$PATH:\$ANDROID_HOME/cmdline-tools/latest/bin\"" >> "$SHELL_CONFIG"
     
     echo "✅ Added Android SDK configuration to $SHELL_CONFIG"
 fi
@@ -58,6 +59,7 @@ export ANDROID_HOME="$ANDROID_SDK_PATH"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
 export PATH="$PATH:$ANDROID_HOME/tools"
 export PATH="$PATH:$ANDROID_HOME/tools/bin"
+export PATH="$PATH:$ANDROID_HOME/cmdline-tools/latest/bin"
 
 echo ""
 echo "✅ Android SDK environment variables set!"

@@ -1,1 +1,1 @@
-String uri = "http://192.168.1.2:300";
+String uri = "https://backend-api.mastercoding.vn";
